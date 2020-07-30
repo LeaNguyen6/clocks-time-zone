@@ -1,0 +1,16 @@
+.time-zone{
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+
+   margin: 1rem;
+   padding: 0rem 1rem 1rem;
+   width: fit-content;
+}
+.time-zone:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4)
+}
+.time-zone__hours{
+    font-weight: bold;
+    margin-top: 0.5rem;
+}

@@ -8,7 +8,7 @@ export default function Choose(props) {
     let [timezone, setTimezone] = useState(options[0])
 
     return (
-        <div className='d-flex' >
+        <div className='d-flex mt-2' >
             <Select options={options}
                 isRtl={false}
                 isSearchable={true}

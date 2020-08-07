@@ -4,7 +4,6 @@ import Select from 'react-select'
 
 export default function Choose(props) {
     let { options, addTimeZone } = props
-
     let [timezone, setTimezone] = useState(options[0])
 
     return (
@@ -18,7 +17,6 @@ export default function Choose(props) {
                 onChange={(option) => {
                     // console.log(option)
                     setTimezone(option)
-                    console.log(timezone)
                 }}
             />
             <button type="button" className="btn btn-primary ml-2" disabled={timezone === null}

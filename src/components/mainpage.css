@@ -1,6 +1,6 @@
 .header {
   padding: 0.5rem;
-  background-image: url("https://i.pinimg.com/originals/40/a3/5e/40a35e5f8ac4b4fe816d43912d33d3e0.gif");
+  background-image: url("../assets/images/daytonight.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -30,7 +30,6 @@
   transform: translate(-50%);
   text-shadow: 0 0 3px rgba(201, 201, 201, 0.3);
   animation: changeColor linear 4.8s infinite;
-
 }
 @keyframes move {
   0% {

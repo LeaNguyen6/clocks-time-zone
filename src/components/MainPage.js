@@ -61,7 +61,7 @@ export default function MainPage() {
     let handleDelete = (clock) => {
         let newTimeZone = [...myTimeZone];
         newTimeZone[clock.index].isDisabled = false;
-        
+
         setTimeZone(newTimeZone)
         localStorage.setItem('timezoneList', JSON.stringify(newTimeZone))
         setNotify('delete')
